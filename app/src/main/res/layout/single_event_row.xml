@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="15dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#098A9A"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/eventDateTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bunjee"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingTop="8dp"
+                android:paddingRight="5dp"
+                android:text="Date"
+                android:textColor="#FBFBFB"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/eventMonthTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bunjee"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="8dp"
+                android:text="Mon"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eventNameTV"
+                style="bold"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/bunjee"
+                android:paddingLeft="15dp"
+                android:text="EventName"
+                android:textColor="#18516A"
+                android:textSize="22sp" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/eventDescTV"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:paddingLeft="8dp"-->
+            <!--                android:text="description" />-->
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/login_image"
+        android:layout_width="154dp"
+        android:layout_height="96dp"
+        android:paddingLeft="20dp"
+        android:src="@drawable/utsav"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:fontFamily="@font/bunjee"
+        android:paddingLeft="10dp"
+        android:text="Utsav Baghela"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:fontFamily="@font/bunjee"
+        android:paddingLeft="10dp"
+        android:paddingBottom="20dp"
+        android:text="utsav21101@iiitd.ac.in"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

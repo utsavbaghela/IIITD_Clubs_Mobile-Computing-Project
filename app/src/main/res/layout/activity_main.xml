@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+android:orientation="vertical"
+tools:context=".MainActivity"
+android:background="@color/black">
+
+<ImageView
+    android:id="@+id/imageFront"
+    android:layout_width="match_parent"
+    android:layout_height="523dp"
+    android:src="@drawable/logo"
+    tools:layout_editor_absoluteX="13dp"
+    tools:layout_editor_absoluteY="166dp"
+    android:transitionName="logo_img">
+
+</ImageView>
+
+<TextView
+    android:id="@+id/txtFront"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:gravity="center"
+    android:fontFamily="@font/bunjee"
+    android:text="IIITD EVENTS APP"
+    android:textSize="40sp"
+    android:transitionName="logo_txt"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:layout_editor_absoluteY="352dp"
+    android:textColor="@color/white"/>
+
+
+</LinearLayout>

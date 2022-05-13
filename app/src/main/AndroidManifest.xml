@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project_clubs_dashboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_Clubs_dashboard">
+        <activity
+            android:name=".clus_and_other_events_act"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddEvent"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_DeleteEvent"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNewAdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".activity_admin_landing"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".setPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".clubEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".afterloginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".forgotpasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".studentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

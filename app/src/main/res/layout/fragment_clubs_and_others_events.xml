@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".clubs_and_others_events">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="56dp"
+
+                android:layout_height="53dp"
+                android:layout_toLeftOf="@+id/clubname"
+                android:maxHeight="30dp"
+                android:src="@android:drawable/ic_menu_sort_by_size" />
+            <TextView
+                android:id="@+id/clubname"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/bunjee"
+                android:gravity="center"
+                android:text="Welcome,"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="68dp"
+                android:layout_below="@+id/clubname"
+                android:fontFamily="@font/bunjee"
+                android:paddingLeft="20dp"
+                android:text="UTSAV"
+                android:textColor="@color/white"
+                android:textSize="35sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reg_events2"
+            android:layout_width="362dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/bunjee"
+            android:gravity="center"
+            android:text="ALL Events"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/eventRegisterButton"
+            android:layout_width="45dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="#100202"
+            android:fontFamily="@font/bunjee"
+            android:onClick="showToast"
+            android:text="IIITD Clubs"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/other_ActButton"
+            android:layout_width="45dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="#100202"
+            android:fontFamily="@font/bunjee"
+            android:onClick="showToast"
+            android:text="Others"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reg_events"
+            android:layout_width="362dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/bunjee"
+            android:gravity="center"
+            android:text="My registered Events"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
